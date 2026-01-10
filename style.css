@@ -340,13 +340,17 @@ a:hover {
     background: var(--bg-primary);
     border-radius: 12px;
     border: 1px solid var(--border-color);
-    transition: var(--transition);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     align-items: flex-start;
+    cursor: pointer;
 }
 
 .publication:hover {
-    box-shadow: var(--shadow-md);
-    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    transform: scale(1.02);
+    border-color: var(--primary-color);
+    z-index: 10;
+    position: relative;
 }
 
 .pub-image {
@@ -359,6 +363,12 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.publication:hover .pub-image {
+    width: 280px;
+    height: 180px;
 }
 
 .pub-image-placeholder {
