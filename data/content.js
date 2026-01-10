@@ -45,7 +45,7 @@ const CONTENT = {
         // 2023
         {
             title: "Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning",
-            authors: "R Girdhar, <strong>M Singh</strong>, A Brown, Q Duval, S Azadi, SS Rambhatla, A Shah, ...",
+            authors: "R Girdhar, <strong>M Singh</strong>, A Brown, Q Duval, S Azadi, SS Rambhatla, A Shah, X Yin, D Parikh, I Misra",
             venue: "arXiv 2023",
             image: "assets/images/emu-video.gif",
             links: {
@@ -67,7 +67,7 @@ const CONTENT = {
         },
         {
             title: "The Effectiveness of MAE Pre-Pretraining for Billion-Scale Pretraining",
-            authors: "<strong>M Singh</strong>, Q Duval, KV Alwala, H Fan, V Aggarwal, A Adcock, A Joulin, ...",
+            authors: "<strong>M Singh</strong>, Q Duval, KV Alwala, H Fan, V Aggarwal, A Adcock, A Joulin, P Dollár, C Feichtenhofer, R Girshick, R Girdhar, I Misra",
             venue: "ICCV 2023",
             image: "assets/images/mae-prepretraining.png",
             links: {
@@ -98,7 +98,7 @@ const CONTENT = {
         },
         {
             title: "Revisiting Weakly Supervised Pre-Training of Visual Perception Models",
-            authors: "<strong>M Singh</strong>, L Gustafson, A Adcock, VF Reis, B Gedik, RP Kosaraju, ...",
+            authors: "<strong>M Singh</strong>, L Gustafson, A Adcock, V Reis, B Gedik, RP Kosaraju, D Mahajan, R Girshick, P Dollár, L van der Maaten",
             venue: "CVPR 2022",
             image: "assets/images/weakly-supervised.png",
             links: {
@@ -137,7 +137,7 @@ const CONTENT = {
         },
         {
             title: "Self-supervised Pretraining of Visual Features in the Wild",
-            authors: "P Goyal, M Caron, B Lefaudeux, M Xu, P Wang, V Pai, <strong>M Singh</strong>, ...",
+            authors: "P Goyal, M Caron, B Lefaudeux, M Xu, P Wang, V Pai, <strong>M Singh</strong>, V Liptchinsky, I Misra, A Joulin, P Bojanowski",
             venue: "arXiv 2021",
             image: "assets/images/seer.png",
             links: {
