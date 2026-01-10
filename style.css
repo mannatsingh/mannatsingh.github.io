@@ -93,7 +93,7 @@ a:hover {
 
 /* Hero Section */
 .hero {
-    padding: 8rem 2rem 4rem;
+    padding: 7rem 2rem 3rem;
     background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
 }
 
@@ -181,11 +181,11 @@ a:hover {
 
 /* Sections */
 .section {
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .section:first-of-type {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .section-alt {
@@ -195,14 +195,14 @@ a:hover {
 .section h2 {
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     color: var(--text-primary);
     text-align: left;
 }
 
 .section-subtitle {
     color: var(--text-muted);
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     text-align: left;
 }
 
@@ -286,7 +286,7 @@ a:hover {
 .publications-list {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .publication {
@@ -401,8 +401,8 @@ a:hover {
 .subsection-title {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 4rem;
-    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
     color: var(--text-primary);
 }
 
@@ -500,6 +500,12 @@ a:hover {
     font-size: 0.95rem;
     color: var(--text-primary);
     line-height: 1.4;
+}
+
+.news-date {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 500;
 }
 
 /* Contact Section */
