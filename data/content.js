@@ -283,7 +283,7 @@ const CONTENT = {
         {
             icon: "fas fa-circle-nodes",
             title: "Multimodal Learning",
-            description: "Unified understanding of vision, language, and other modalities"
+            description: "Unified understanding and generation of language, vision, and other modalities"
         },
         {
             icon: "fas fa-database",
@@ -293,12 +293,12 @@ const CONTENT = {
         {
             icon: "fas fa-eye",
             title: "Computer Vision",
-            description: "Visual perception models, image classification, and object detection"
+            description: "Visual perception models, representation learning, image classification"
         },
         {
             icon: "fas fa-brain",
             title: "Self-Supervised Learning",
-            description: "Learning visual representations from unlabeled images and videos"
+            description: "Learning visual representations from unlabeled data"
         }
     ]
 };
