@@ -100,6 +100,7 @@ a:hover {
 .hero-content {
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     gap: 4rem;
@@ -196,11 +197,13 @@ a:hover {
     font-weight: 700;
     margin-bottom: 1rem;
     color: var(--text-primary);
+    text-align: left;
 }
 
 .section-subtitle {
     color: var(--text-muted);
     margin-bottom: 3rem;
+    text-align: left;
 }
 
 .section-subtitle a {
@@ -212,7 +215,7 @@ a:hover {
 /* Research Areas */
 .research-areas {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
     margin-top: 1rem;
 }
@@ -406,7 +409,7 @@ a:hover {
 /* Projects Grid */
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
 }
 
@@ -565,6 +568,14 @@ footer p {
 
     .nav-links {
         gap: 1rem;
+    }
+
+    .research-areas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .publication {
