@@ -14,10 +14,13 @@
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <a href="#" class="nav-logo">Mannat Singh</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
+            <a href="#" class="nav-logo"></a>
+<ul class="nav-links">
+                <li><a href="#">Home</a></li>
                 <li><a href="#publications">Publications</a></li>
+                <li><a href="#press">Press</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </div>
     </nav>
@@ -60,7 +63,17 @@
         <section id="about" class="section">
             <div class="container">
                 <h2>Research Interests</h2>
-                <div class="research-areas">
+<div class="research-areas">
+                    <div class="research-card">
+                        <i class="fas fa-video"></i>
+                        <h3>Video Generation</h3>
+                        <p>Text-to-video generation and multimodal generative models</p>
+                    </div>
+                    <div class="research-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Large-Scale Learning</h3>
+                        <p>Training and scaling models on billions of images and videos</p>
+                    </div>
                     <div class="research-card">
                         <i class="fas fa-eye"></i>
                         <h3>Computer Vision</h3>
@@ -72,14 +85,9 @@
                         <p>Learning visual representations from unlabeled images and videos</p>
                     </div>
                     <div class="research-card">
-                        <i class="fas fa-video"></i>
-                        <h3>Video Generation</h3>
-                        <p>Text-to-video generation and multimodal generative models</p>
-                    </div>
-                    <div class="research-card">
-                        <i class="fas fa-database"></i>
-                        <h3>Large-Scale Learning</h3>
-                        <p>Training and scaling models on billions of images and videos</p>
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Multimodal Learning</h3>
+                        <p>Unifying vision, language, and audio in shared embedding spaces</p>
                     </div>
                 </div>
             </div>
@@ -87,7 +95,7 @@
 
         <section id="publications" class="section section-alt">
             <div class="container">
-                <h2>Selected Publications</h2>
+                <h2>Publications</h2>
                 <p class="section-subtitle">
                     <a href="https://scholar.google.com/citations?user=QOO8OCcAAAAJ" target="_blank">
                         View all publications on Google Scholar <i class="fas fa-external-link-alt"></i>
@@ -294,22 +302,87 @@
 
                 </div>
 
-                <h3 class="subsection-title">Open Source Projects</h3>
+<h3 id="press" class="subsection-title">Press Coverage</h3>
+                <div class="news-list">
+                    <a href="https://www.theverge.com/2024/10/4/24261990/meta-movie-gen-ai-video-generator-openai-sora" target="_blank" class="news-item">
+                        <span class="news-source"><img src="https://www.google.com/s2/favicons?domain=theverge.com&sz=32" alt=""> The Verge</span>
+                        <span class="news-title">Meta's Movie Gen AI video generator is coming — eventually</span>
+                    </a>
+                    <a href="https://techcrunch.com/2024/10/04/meta-previews-movie-gen-its-new-ai-powered-video-generator/" target="_blank" class="news-item">
+                        <span class="news-source"><img src="https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32" alt=""> TechCrunch</span>
+                        <span class="news-title">Meta previews Movie Gen, its new AI-powered video generator</span>
+                    </a>
+                    <a href="https://www.wired.com/story/meta-imagebind-ai-model-images-video-audio-more/" target="_blank" class="news-item">
+                        <span class="news-source"><img src="https://www.google.com/s2/favicons?domain=wired.com&sz=32" alt=""> Wired</span>
+                        <span class="news-title">Meta's ImageBind AI Fuses Six Types of Data Into One Massive Model</span>
+                    </a>
+                    <a href="https://venturebeat.com/ai/meta-open-sources-imagebind-the-first-ai-to-combine-6-data-types/" target="_blank" class="news-item">
+                        <span class="news-source"><img src="https://www.google.com/s2/favicons?domain=venturebeat.com&sz=32" alt=""> VentureBeat</span>
+                        <span class="news-title">Meta open-sources ImageBind, the first AI to combine 6 data types</span>
+                    </a>
+                    <a href="https://www.theverge.com/2023/11/16/23964114/meta-emu-video-ai-generator-image-editing" target="_blank" class="news-item">
+                        <span class="news-source"><img src="https://www.google.com/s2/favicons?domain=theverge.com&sz=32" alt=""> The Verge</span>
+                        <span class="news-title">Meta announces AI video and image editing tools</span>
+                    </a>
+                    <a href="https://techcrunch.com/2021/03/04/facebook-trains-ai-to-predict-objects-in-instagram-videos/" target="_blank" class="news-item">
+                        <span class="news-source"><img src="https://www.google.com/s2/favicons?domain=techcrunch.com&sz=32" alt=""> TechCrunch</span>
+                        <span class="news-title">Facebook's SEER AI trains on one billion Instagram images</span>
+                    </a>
+                </div>
+
+                <h3 id="blogs" class="subsection-title">Blogs</h3>
+                <div class="news-list">
+                    <a href="https://ai.meta.com/blog/movie-gen-media-foundation-models-generative-ai-video/" target="_blank" class="news-item">
+                        <span class="news-source">Meta AI Blog</span>
+                        <span class="news-title">Introducing Movie Gen: A new foundation model for video generation</span>
+                    </a>
+                    <a href="https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/" target="_blank" class="news-item">
+                        <span class="news-source">Meta AI Blog</span>
+                        <span class="news-title">Llama 3.2: Revolutionizing edge AI and vision with open, customizable models</span>
+                    </a>
+                    <a href="https://ai.meta.com/blog/emu-text-to-video-generation-image-editing-research/" target="_blank" class="news-item">
+                        <span class="news-source">Meta AI Blog</span>
+                        <span class="news-title">Emu Video and Emu Edit: New generative AI research</span>
+                    </a>
+                    <a href="https://ai.meta.com/blog/imagebind-six-modalities-binding-ai/" target="_blank" class="news-item">
+                        <span class="news-source">Meta AI Blog</span>
+                        <span class="news-title">ImageBind: Holistic AI learning across six modalities</span>
+                    </a>
+                    <a href="https://ai.meta.com/blog/omnivore-state-of-the-art-computer-vision-model/" target="_blank" class="news-item">
+                        <span class="news-source">Meta AI Blog</span>
+                        <span class="news-title">Omnivore: A single model for images, videos, and 3D data</span>
+                    </a>
+                    <a href="https://ai.meta.com/blog/seer-10b-better-fairer-computer-vision-through-self-supervised-learning/" target="_blank" class="news-item">
+                        <span class="news-source">Meta AI Blog</span>
+                        <span class="news-title">SEER: Self-supervised pretraining of visual features in the wild</span>
+                    </a>
+                </div>
+
+                <h3 id="projects" class="subsection-title">Open Source Projects</h3>
                 <div class="projects-grid">
                     <a href="https://github.com/facebookresearch/vissl" target="_blank" class="project-card">
                         <h4>VISSL</h4>
                         <p>A library for state-of-the-art Self-Supervised Learning with PyTorch</p>
                         <span class="project-meta"><i class="fab fa-github"></i> facebookresearch/vissl</span>
+                        <img class="github-stars" src="https://img.shields.io/github/stars/facebookresearch/vissl?style=social" alt="GitHub stars">
+                    </a>
+                    <a href="https://github.com/facebookresearch/pycls" target="_blank" class="project-card">
+                        <h4>pycls</h4>
+                        <p>A flexible codebase for image classification with RegNet and model scaling</p>
+                        <span class="project-meta"><i class="fab fa-github"></i> facebookresearch/pycls</span>
+                        <img class="github-stars" src="https://img.shields.io/github/stars/facebookresearch/pycls?style=social" alt="GitHub stars">
                     </a>
                     <a href="https://github.com/facebookresearch/ClassyVision" target="_blank" class="project-card">
                         <h4>Classy Vision</h4>
                         <p>An end-to-end framework for image and video classification</p>
                         <span class="project-meta"><i class="fab fa-github"></i> facebookresearch/ClassyVision</span>
+                        <img class="github-stars" src="https://img.shields.io/github/stars/facebookresearch/ClassyVision?style=social" alt="GitHub stars">
                     </a>
                     <a href="https://github.com/facebookresearch/NeuralCompression" target="_blank" class="project-card">
                         <h4>NeuralCompression</h4>
                         <p>A collection of neural compression tools and methods</p>
                         <span class="project-meta"><i class="fab fa-github"></i> facebookresearch/NeuralCompression</span>
+                        <img class="github-stars" src="https://img.shields.io/github/stars/facebookresearch/NeuralCompression?style=social" alt="GitHub stars">
                     </a>
                 </div>
             </div>
@@ -319,7 +392,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Mannat Singh. All rights reserved.</p>
+            <p>&copy; 2026 Mannat Singh. All rights reserved.</p>
         </div>
     </footer>
 </body>
