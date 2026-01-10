@@ -47,7 +47,7 @@
 
             const mainLink = pub.links.paper || pub.links.project || '#';
 
-            return `<div class="publication" onclick="window.open('${mainLink}', '_blank')"><div class="pub-image">${pub.image ? `<img src="${pub.image}" alt="${pub.title}">` : `<div class="pub-image-placeholder">${pub.title.substring(0, 20)}...</div>`}</div><div class="pub-content"><h3>${pub.title}${badge}</h3><p class="authors">${pub.authors}</p><p class="venue">${pub.venue}</p><div class="pub-links">${links.join('')}</div></div></div>`;
+            return `<div class="publication" onclick="window.open('${mainLink}', '_blank')"><div class="pub-image">${pub.image ? `<img src="${pub.image}" alt="${pub.title}">` : `<div class="pub-image-placeholder">${pub.title.substring(0, 20)}...</div>`}</div><div class="pub-content"><h3>${pub.title}</h3><p class="authors">${pub.authors}</p><p class="venue">${pub.venue}${badge}</p><div class="pub-links">${links.join('')}</div></div></div>`;
         }).join('');
     }
 
