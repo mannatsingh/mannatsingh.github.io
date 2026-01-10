@@ -177,10 +177,7 @@
 
 .publication:hover {
     box-shadow: var(--shadow-lg);
-    transform: scale(1.02);
     border-color: var(--primary-color);
-    z-index: 10;
-    position: relative;
 }
 
 .pub-image {
@@ -196,10 +193,6 @@
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.publication:hover .pub-image {
-    width: 280px;
-    height: 180px;
-}
 
 .pub-image-placeholder {
     width: 100%;
@@ -223,9 +216,6 @@
     transition: var(--transition);
 }
 
-.publication:hover .pub-image img {
-    transform: scale(1.05);
-}
 
 .pub-year {
     font-size: 0.9rem;
@@ -290,7 +280,6 @@
 .news-item:hover {
     border-color: var(--primary-color);
     box-shadow: var(--shadow-md);
-    transform: scale(1.01);
 }
 
 .news-preview {
@@ -308,10 +297,6 @@
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.news-item:hover .news-preview {
-    width: 180px;
-    height: 120px;
-}
 
 .news-preview img,
 .news-preview video {
