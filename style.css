@@ -279,6 +279,20 @@ a:hover {
     justify-content: center;
 }
 
+.pub-image-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
 .pub-image img,
 .pub-image video {
     width: 100%;
