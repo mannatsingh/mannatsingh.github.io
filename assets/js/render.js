@@ -45,9 +45,44 @@
                 links.push(`<a href="${pub.links.code}" target="_blank" onclick="event.stopPropagation()"><i class="fab fa-github"></i> Code</a>`);
             }
 
+            // Process authors with contribution markers (superscript symbols with colors)
+            let authorsHtml = pub.authors;
+            if (pub.authorNotes && pub.authorNotes.length > 0) {
+                // Build a map of author index -> symbols with colors
+                const authorSymbols = {};
+                pub.authorNotes.forEach(note => {
+                    note.indices.forEach(idx => {
+                        if (!authorSymbols[idx]) authorSymbols[idx] = [];
+                        authorSymbols[idx].push({ symbol: note.symbol, color: note.color || 'var(--primary-color)' });
+                    });
+                });
+
+                // Split authors and add superscript symbols to specified indices
+                const authorList = pub.authors.split(', ');
+                const markedAuthors = authorList.map((author, idx) => {
+                    if (authorSymbols[idx]) {
+                        const symbolsHtml = authorSymbols[idx].map(s =>
+                            `<sup style="color:${s.color}">${s.symbol}</sup>`
+                        ).join('');
+                        // Add superscripts after the author name (handle <strong> tags)
+                        if (author.includes('</strong>')) {
+                            return author.replace('</strong>', symbolsHtml + '</strong>');
+                        }
+                        return author + symbolsHtml;
+                    }
+                    return author;
+                });
+                authorsHtml = markedAuthors.join(', ');
+            }
+
+            // Add author notes if present (tooltip on hover with colored symbols)
+            const authorNotesHtml = pub.authorNotes && pub.authorNotes.length > 0
+                ? `<span class="author-notes-trigger" tabindex="0"><i class="fas fa-info-circle"></i><span class="author-notes-tooltip">${pub.authorNotes.map(n => `<span><sup style="color:${n.color || 'var(--primary-color)'}">${n.symbol}</sup> ${n.note}</span>`).join('')}</span></span>`
+                : '';
+
             const mainLink = pub.links.paper || pub.links.project || '#';
 
-            return `<div class="publication" onclick="window.open('${mainLink}', '_blank')"><div class="pub-image">${pub.image ? `<img src="${pub.image}" alt="${pub.title}">` : `<div class="pub-image-placeholder">${pub.title.substring(0, 20)}...</div>`}</div><div class="pub-content"><h3>${pub.title}</h3><p class="authors">${pub.authors}</p><p class="venue">${pub.venue}${badge}</p><div class="pub-links">${links.join('')}</div></div></div>`;
+            return `<div class="publication" onclick="window.open('${mainLink}', '_blank')"><div class="pub-image">${pub.image ? `<img src="${pub.image}" alt="${pub.title}">` : `<div class="pub-image-placeholder">${pub.title.substring(0, 20)}...</div>`}</div><div class="pub-content"><h3>${pub.title}</h3><p class="authors">${authorsHtml}${authorNotesHtml}</p><p class="venue">${pub.venue}${badge}</p><div class="pub-links">${links.join('')}</div></div></div>`;
         }).join('');
     }
 

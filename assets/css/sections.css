@@ -248,6 +248,76 @@
     color: var(--text-primary);
 }
 
+.authors sup {
+    font-size: 0.65rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-left: 1px;
+}
+
+.author-notes-trigger {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.4rem;
+    cursor: help;
+}
+
+.author-notes-trigger i {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    opacity: 0.6;
+    transition: var(--transition);
+}
+
+.author-notes-trigger:hover i,
+.author-notes-trigger:focus i {
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+.author-notes-tooltip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bg-primary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.5rem 0.75rem;
+    box-shadow: var(--shadow-lg);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.author-notes-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--border-color);
+}
+
+.author-notes-trigger:hover .author-notes-tooltip,
+.author-notes-trigger:focus .author-notes-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.author-notes-tooltip span {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
 .venue {
     font-size: 0.9rem;
     color: var(--text-muted);

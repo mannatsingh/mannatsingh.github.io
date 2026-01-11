@@ -24,7 +24,10 @@ const CONTENT = {
         // 2024
         {
             title: "Movie Gen: A Cast of Media Foundation Models",
-            authors: "A Polyak, A Zohar, A Brown, A Tjandra, ..., <strong>M Singh</strong>, ...",
+            authors: "A Polyak, A Pumarola, A Thabet, A Zohar, A Brown, A Tjandra, ..., <strong>M Singh</strong>, et al.",
+            authorNotes: [
+                { symbol: "*", note: "Core Contributor", indices: [0, 3, 4, 5, 7], color: "#2196f3" }
+            ],
             venue: "arXiv 2024",
             image: "assets/images/moviegen.gif",
             links: {
@@ -34,7 +37,10 @@ const CONTENT = {
         },
         {
             title: "The Llama 3 Herd of Models",
-            authors: "A Grattafiori, A Dubey, A Jauhri, A Pandey, ..., <strong>M Singh</strong>, ...",
+            authors: "A Grattafiori, A Dubey, A Jauhri, A Pandey, A Kadian, A Al-Dahle, ..., <strong>M Singh</strong>, et al.",
+            authorNotes: [
+                { symbol: "*", note: "Core Contributor", indices: [0, 1, 2, 3, 4, 5, 7], color: "#2196f3" }
+            ],
             venue: "arXiv 2024",
             image: "assets/images/llama3.gif",
             links: {
@@ -46,6 +52,10 @@ const CONTENT = {
         {
             title: "Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning",
             authors: "R Girdhar, <strong>M Singh</strong>, A Brown, Q Duval, S Azadi, SS Rambhatla, A Shah, X Yin, D Parikh, I Misra",
+            authorNotes: [
+                { symbol: "†", note: "Equal first authors", indices: [0, 1], color: "#4caf50" },
+                { symbol: "*", note: "Equal technical contribution", indices: [0, 1, 2, 3, 4, 9], color: "#2196f3" }
+            ],
             venue: "arXiv 2023",
             image: "assets/images/emu-video.gif",
             links: {
@@ -56,6 +66,9 @@ const CONTENT = {
         {
             title: "ImageBind: One Embedding Space to Bind Them All",
             authors: "R Girdhar, A El-Nouby, Z Liu, <strong>M Singh</strong>, KV Alwala, A Joulin, I Misra",
+            authorNotes: [
+                { symbol: "*", note: "Equal technical contribution", indices: [0, 1, 6], color: "#2196f3" }
+            ],
             venue: "CVPR 2023",
             badge: { type: "highlight", text: "Highlight" },
             image: "assets/images/imagebind.gif",
@@ -68,6 +81,10 @@ const CONTENT = {
         {
             title: "The Effectiveness of MAE Pre-Pretraining for Billion-Scale Pretraining",
             authors: "<strong>M Singh</strong>, Q Duval, KV Alwala, H Fan, V Aggarwal, A Adcock, A Joulin, P Dollár, C Feichtenhofer, R Girshick, R Girdhar, I Misra",
+            authorNotes: [
+                { symbol: "†", note: "Project Lead", indices: [0], color: "#4caf50" },
+                { symbol: "*", note: "Equal technical contribution", indices: [0, 1, 2], color: "#2196f3" }
+            ],
             venue: "ICCV 2023",
             image: "assets/images/mae-prepretraining.png",
             links: {
@@ -77,6 +94,9 @@ const CONTENT = {
         {
             title: "OmniMAE: Single Model Masked Pretraining on Images and Videos",
             authors: "R Girdhar, A El-Nouby, <strong>M Singh</strong>, KV Alwala, A Joulin, I Misra",
+            authorNotes: [
+                { symbol: "*", note: "Equal technical contribution", indices: [0, 1, 2, 3, 5], color: "#2196f3" }
+            ],
             venue: "CVPR 2023",
             image: "assets/images/omnimae.png",
             links: {
@@ -88,6 +108,9 @@ const CONTENT = {
         {
             title: "Omnivore: A Single Model for Many Visual Modalities",
             authors: "R Girdhar, <strong>M Singh</strong>, N Ravi, L van der Maaten, A Joulin, I Misra",
+            authorNotes: [
+                { symbol: "*", note: "Equal technical contribution", indices: [0, 1, 2, 5], color: "#2196f3" }
+            ],
             venue: "CVPR 2022",
             badge: { type: "oral", text: "Oral" },
             image: "assets/images/omnivore.jpg",
