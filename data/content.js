@@ -32,7 +32,8 @@ const CONTENT = {
             image: "assets/images/moviegen.gif",
             links: {
                 paper: "https://arxiv.org/abs/2410.13720",
-                project: "https://ai.meta.com/research/movie-gen/"
+                project: "https://ai.meta.com/research/movie-gen/",
+                code: "https://github.com/facebookresearch/MovieGenBench"
             }
         },
         {
@@ -88,7 +89,8 @@ const CONTENT = {
             venue: "ICCV 2023",
             image: "assets/images/mae-prepretraining.png",
             links: {
-                paper: "https://arxiv.org/abs/2303.13496"
+                paper: "https://arxiv.org/abs/2303.13496",
+                code: "https://github.com/facebookresearch/maws"
             }
         },
         {
@@ -125,7 +127,8 @@ const CONTENT = {
             venue: "CVPR 2022",
             image: "assets/images/weakly-supervised.png",
             links: {
-                paper: "https://arxiv.org/abs/2201.08371"
+                paper: "https://arxiv.org/abs/2201.08371",
+                code: "https://github.com/facebookresearch/swag"
             }
         },
         // 2021
@@ -146,6 +149,7 @@ const CONTENT = {
             image: "assets/images/mdetr.png",
             links: {
                 paper: "https://arxiv.org/abs/2104.12763",
+                project: "https://ashkamath.github.io/mdetr_page/",
                 code: "https://github.com/ashkamath/mdetr"
             }
         },
@@ -155,7 +159,8 @@ const CONTENT = {
             venue: "CVPR 2021",
             image: "assets/images/fast-model-scaling.png",
             links: {
-                paper: "https://arxiv.org/abs/2103.06877"
+                paper: "https://arxiv.org/abs/2103.06877",
+                code: "https://github.com/facebookresearch/pycls"
             }
         },
         {
@@ -164,7 +169,8 @@ const CONTENT = {
             venue: "arXiv 2021",
             image: "assets/images/seer.png",
             links: {
-                paper: "https://arxiv.org/abs/2103.01988"
+                paper: "https://arxiv.org/abs/2103.01988",
+                code: "https://github.com/facebookresearch/vissl"
             }
         }
     ],
