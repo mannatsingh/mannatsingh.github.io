@@ -133,6 +133,7 @@
 .research-card:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-md);
+    border-color: var(--primary-color);
 }
 
 .research-card i {
