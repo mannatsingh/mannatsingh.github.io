@@ -315,11 +315,6 @@ const CONTENT = {
             description: "Unified understanding and generation of language, vision, and other modalities"
         },
         {
-            icon: "fas fa-database",
-            title: "Large-Scale Learning",
-            description: "Training and scaling models on billions of images and videos"
-        },
-        {
             icon: "fas fa-eye",
             title: "Computer Vision",
             description: "Visual perception models, representation learning, image classification"
@@ -328,6 +323,11 @@ const CONTENT = {
             icon: "fas fa-brain",
             title: "Self-Supervised Learning",
             description: "Learning visual representations from unlabeled data"
+        },
+        {
+            icon: "fas fa-database",
+            title: "Large-Scale Learning",
+            description: "Training and scaling models on billions of images and videos"
         }
     ]
 };
