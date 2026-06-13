@@ -67,7 +67,7 @@ const CONTENT = {
                 { symbol: "†", note: "Equal first authors", indices: [0, 1], color: "#4caf50" },
                 { symbol: "*", note: "Equal technical contribution", indices: [0, 1, 2, 3, 4, 9], color: "#2196f3" }
             ],
-            venue: "arXiv 2023",
+            venue: "ECCV 2024",
             image: "assets/images/emu-video.gif",
             links: {
                 paper: "https://arxiv.org/abs/2311.10709",
