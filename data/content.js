@@ -9,6 +9,16 @@ const CONTENT = {
     // Publications
     // =========================================
     publications: [
+        // 2026
+        {
+            title: "Fast, High-Fidelity Video Editing",
+            authors: "A personally curated showcase of the publicly available video editing feature on Meta AI and Instagram Edits",
+            venue: "Meta AI & Instagram Edits, May 2026",
+            image: "assets/images/video-editing-2026.gif",
+            links: {
+                project: "https://mannatsingh.github.io/2026_video_editing/"
+            }
+        },
         // 2025
         {
             title: "Flowing from Words to Pixels: A Noise-Free Framework for Cross-Modality Evolution",
