@@ -11,6 +11,15 @@ const CONTENT = {
     publications: [
         // 2026
         {
+            title: "Muse Image and Muse Video",
+            authors: "Meta Superintelligence Labs' most advanced image and video generation models, powering media generation in Meta AI and Instagram",
+            venue: "Meta Superintelligence Labs, July 2026",
+            image: "assets/images/muse.gif",
+            links: {
+                project: "https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/"
+            }
+        },
+        {
             title: "Fast, High-Fidelity Video Editing",
             authors: "A personally curated showcase of the publicly available video editing feature on Meta AI and Instagram Edits",
             venue: "Meta AI & Instagram Edits, May 2026",
@@ -190,6 +199,14 @@ const CONTENT = {
     // =========================================
     media: [
         {
+            title: "Meta's new Muse Image model can pull other Instagram users into AI photos",
+            source: "The Verge",
+            favicon: "theverge.com",
+            date: "Jul 2026",
+            url: "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
+            image: "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/meta-muse-image-instagram-tag.png?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811&w=600"
+        },
+        {
             title: "Meta announces Movie Gen, an AI-powered video generator",
             source: "The Verge",
             favicon: "theverge.com",
@@ -243,6 +260,13 @@ const CONTENT = {
     // Blog Posts
     // =========================================
     blogs: [
+        {
+            title: "Introducing Muse Image and Muse Video",
+            source: "Meta AI Blog",
+            date: "Jul 2026",
+            url: "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+            image: "assets/images/blog-muse.jpg"
+        },
         {
             title: "How Meta Movie Gen could usher in a new AI-enabled era for content creators",
             source: "Meta AI Blog",
