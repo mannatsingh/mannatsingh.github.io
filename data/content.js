@@ -199,12 +199,12 @@ const CONTENT = {
     // =========================================
     media: [
         {
-            title: "Meta's new Muse Image model can pull other Instagram users into AI photos",
-            source: "The Verge",
-            favicon: "theverge.com",
+            title: "Meta Unveils an A.I. Image Generator",
+            source: "The New York Times",
+            favicon: "nytimes.com",
             date: "Jul 2026",
-            url: "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram",
-            image: "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/meta-muse-image-instagram-tag.png?quality=90&strip=all&crop=0,16.342557965595,100,67.314884068811&w=600"
+            url: "https://www.nytimes.com/2026/07/07/technology/meta-ai-muse-image.html",
+            image: "assets/images/media-muse.jpg"
         },
         {
             title: "Meta announces Movie Gen, an AI-powered video generator",
