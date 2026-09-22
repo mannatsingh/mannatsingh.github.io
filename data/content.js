@@ -339,6 +339,11 @@ const CONTENT = {
     // =========================================
     researchAreas: [
         {
+            icon: "fas fa-robot",
+            title: "Reinforcement Learning",
+            description: "RL for understanding and reasoning in multimodal models"
+        },
+        {
             icon: "fas fa-video",
             title: "Video Generation",
             description: "Text-to-video and video-editing generative models"
